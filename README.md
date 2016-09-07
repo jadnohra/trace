@@ -1,9 +1,6 @@
-#*trace*
-*(mark or line left by something that has passed)*
+**trace**: *(mark or line left by something that has passed)*
 
 ----------
-&nbsp;  
-&nbsp;
 
 *trace* is a tool for graphing and examining data locally or over a network in real-time or off-line.
 
