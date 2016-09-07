@@ -1,4 +1,4 @@
-**trace**: *(mark or line left by something that has passed)*
+**trace**: *mark or line left by something that has passed*
 
 ----------
 
