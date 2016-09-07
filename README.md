@@ -5,7 +5,7 @@
 &nbsp;  
 &nbsp;
 
-*trace* is a for graphing and examining data locally or over a network in real-time or off-line.
+*trace* is a tool for graphing and examining data locally or over a network in real-time or off-line.
 
 <img src="trace_0.png" width="450">
 
