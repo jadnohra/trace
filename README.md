@@ -20,11 +20,11 @@ Examples of using trace include:
 ##Tutorial
 
  0. Check that the everything works fine:
-    * Try `'python .../trace.py -test'`.
-    * Try `'python .../trace.py'`, and then `'python .../trace_cli_test.py'`, a short burst of graphs should appear on the server.
+    * Try `'python trace.py -test'`.
+    * Try `'python trace.py'`, and then `'python trace_cli_test.py'`, a short burst of graphs should appear on the server.
     * Repeat the above on different machines by specifying the ip of the server when staring the test client using `-ip ...`.
- 1. Start the server: `'python .../trace.py -n 128'`, an empty window with the title 'trace' appears.
- 2. Include the c++ header in your code: `#include ".../trace.h"`.
+ 1. Start the server: `'python trace.py -n 128'`, an empty window with the title 'trace' appears.
+ 2. Include the c++ header in your code: `#include "trace.h"`.
  3. Send a number of points by calling `trace_test1()` which is implemented as follows:
 
  		for (float i=0; i<128.0f; i+=1.0f)
