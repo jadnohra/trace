@@ -51,7 +51,7 @@ Examples of using trace include:
 
 The client is a single standalone c++ header file and can therefore be integrated without much trouble.
 
-The client connects silently and auto-magically to the IP address '127.0.0.1' and a fixed port. If this is successful, a message is printed to the console. Otherwise, all tracing fails silently.
+The client connects silently and auto-magically to the IP address '127.0.0.1' and a fixed port. If this is successful, a message is printed to the console. Otherwise, all tracing fails silently. To connect to a remote server, trace::first_connect([ip], [port]) is to be called before any other call.
 
 #### Basic Usage
 
