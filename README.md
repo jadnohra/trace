@@ -202,3 +202,7 @@ Additionally, these command line options are available:
  2. Changing the protocol to use json fragments.
  3. Implementing batching and flushing on the client side. This should improve the server performance dramatically.
  4. Improving the server performance. For hints on where to start one can use the built-in profiler: `'python trace.py -profile'`.
+
+# Dependencies
+ - [Python 2.7](https://www.python.org/downloads/)
+ - [PyOpenGL](http://pyopengl.sourceforge.net/documentation/installation.html)
