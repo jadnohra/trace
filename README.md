@@ -145,7 +145,7 @@ Command shortcuts are single key-press shortcuts to common commands. The most co
  * **F1**: Prints a help summary to the command line.
  * **F2**: Toggles graph analysis for all graphs, instead of only the focused one.
  * **F3**: Switches to frequency mode for all graphs. If not explicitly set by the client, the sampling period is assumed to be 60 Hz, but can be changed with the **'hz'** command.
- * **F5**: Switches the color scheme.
+ * **F5**: Switches the color scheme. There is the default black one, and a white one optimizing for printing to paper.
 
 
 ##### Issuing Commands
