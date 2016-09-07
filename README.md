@@ -4,7 +4,7 @@
 
 *trace* is a tool for graphing and examining data locally or over a network in real-time or off-line.
 
-<img src="trace_0.png" width="450">
+<img src="doc/trace_0.png" width="450">
 
 Examples of using trace include:
 
@@ -86,7 +86,7 @@ The same technique works for `spoint` in combintaiton with `trace::stat` which a
  * `trace::stat("stat1", "n4"); // Displays the last four points. That is: 1,2,3,4 then, 2,3,4,5, etc. `
  * `trace::stat("stat1", "p4"); // Displays four periodic points. That is: 1,2,3,4 then, 5,6,7,8, etc.`
 
-![](trace_4.png)
+![](doc/trace_4.png)
 
 One can also simply send text to the server to be be printed:
 
@@ -147,7 +147,7 @@ Command shortcuts are single key-press shortcuts to common commands. The most co
 ##### Issuing Commands
 Issuing a command starts by pressing **`** to open the command console which pops up in the center of the window. Pressing enter executes the current command. Python exceptions that happen during the execution, potentially due to malformed commands, are caught and printed on the command line.
 
-![](trace_1.png)
+![](doc/trace_1.png)
 
 The most common commands are:
 
@@ -164,7 +164,7 @@ The most common commands are:
 
 Instead of displaying data in real-time, the server can be set to 'export' mode: `'python trace.py -export d:/trace_export'`. In this mode, there is no display window, and the server works in console mode. When no data is being received, the server is idle. When there is incoming data, the server indicates this with a spinning text. The server does not directly write data to the file system, but only at certain intervals, or after a short amount of inactivity. It is always safe to close the server when the last line on the command line says 'Flushed'.
 
-![](trace_2.png)
+![](doc/trace_2.png)
 
 In this mode, a number of additional command line options are available:
 
@@ -178,7 +178,7 @@ On the client side, an additional function is available which allows sending a t
 
 Files created during 'export' can be examined by starting the server in 'gallery' mode and specifying a directory: `'python trace.py -gallery d:/trace_export'`.
 
-![](trace_3.png)
+![](doc/trace_3.png)
 
 In this mode, these additional shortcuts are available:
 
