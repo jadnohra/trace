@@ -98,7 +98,6 @@ Finally, one can display the frame rate of the client on the server (a client is
 
 
 #### Limitations
- * The client depends on windows for the socket library which it links using a pragma, and for the timing convenience class.
  * The client does not support multi-threading.
  * The client does not protect against buffer over-runs.
 
@@ -194,7 +193,7 @@ Additionally, these command line options are available:
  * **-last_sess**: Uses the last numbered sub-directory used during 'export'.
 
 #### Limitations
- * When the server gets flooded with points, it grinds to a halt.
+ * When the server gets flooded with points, it grinds to a halt. That being said, it can handle a good amount before this starts to happen.
  * The server does not automatically acquire window focus when the mouse hovers over it. This can be irritating.
 
 ## Possible Improvements
