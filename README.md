@@ -8,7 +8,7 @@
 
 *trace* is a client-server tool for examining data using graphs locally or over a network in real-time or off-line.
 
-![](trace_0.png)
+<img src="trace_0.png" width="450">
 
 Examples of using trace include:
 
