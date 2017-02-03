@@ -204,6 +204,11 @@ Additionally, these command line options are available:
  4. Improving the server performance. For hints on where to start one can use the built-in profiler: `'python trace.py -profile'`.
 
 # Dependencies
- - [Python 2.7](https://www.python.org/downloads/)
- - [PyOpenGL](http://pyopengl.sourceforge.net/documentation/installation.html)
-  - For glut on windows, you will have to [find](https://mycodelog.com/2010/05/15/gllibs/) the [DLLs](http://originaldll.com/search?q=glut) and [place them](https://w3.cs.jmu.edu/bernstdh/Web/common/help/cpp_mingw-glut-setup.php) either in system folders or in the directory of trace.
+ - Using Conda (the easier alternative)
+   * [Conda](https://conda.io/docs/install/quick.html)
+   * `conda install pyopengl`
+   * `conda install -c conda-forge freeglut`
+ - Using Python
+   * [Python 2.7](https://www.python.org/downloads/)
+   * [PyOpenGL](http://pyopengl.sourceforge.net/documentation/installation.html)
+   * For glut on windows, you will have to [find](https://mycodelog.com/2010/05/15/gllibs/) the [DLLs](http://originaldll.com/search?q=glut) and [place them](https://w3.cs.jmu.edu/bernstdh/Web/common/help/cpp_mingw-glut-setup.php) either in system folders or in the directory of trace.
