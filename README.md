@@ -14,7 +14,7 @@ Examples of using trace include:
  4. Browsing and viewing data on disk in 'gallery' mode.
  5. Analyzing a graph by examining its zero crossings, extrema and frequency content.
 
-##Tutorial
+## Tutorial
 
  0. Check that the everything works fine:
     * Try `'python trace.py -test'`.
